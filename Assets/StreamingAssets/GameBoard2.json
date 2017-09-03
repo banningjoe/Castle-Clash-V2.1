@@ -1,0 +1,16 @@
+{
+  "grid": [
+    {
+      "name": "Square_00",
+      "number": 0,
+      "type": "Castle",
+      "intNeighbours": [1,3]
+    },
+    {
+      "name": "Square_01",
+      "number": 1,
+      "type": "Field",
+      "intNeighbours": [0,2,4]
+    }
+    ]
+}
