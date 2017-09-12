@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BB15DC3B-B75A-F444-3EFC-AD5941190665}</ProjectGuid>
+    <ProjectGuid>{7715FA10-E18B-2D78-00E1-C3DD0BA4BA58}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,13 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Prefabs\Tile\TileInfoHolder.cs" />
-     <Compile Include="Assets\Prefabs\Tile\TileMethods.cs" />
-     <Compile Include="Assets\Prefabs\Unit\UnitInfoHolder.cs" />
-     <Compile Include="Assets\Scripts\Start of Game\Class_BoardSquare.cs" />
-     <Compile Include="Assets\Scripts\Start of Game\Class_GameBoard.cs" />
-     <Compile Include="Assets\Scripts\Start of Game\JsonReader.cs" />
-     <Compile Include="Assets\Scripts\Start of Game\StartScript.cs" />
+     <Compile Include="Assets\Scripts\Not in use (old code based version)\Class_BoardSquare.cs" />
+     <Compile Include="Assets\Scripts\Not in use (old code based version)\Class_GameBoard.cs" />
+     <Compile Include="Assets\Scripts\Not in use (old code based version)\JsonReader.cs" />
+     <Compile Include="Assets\Scripts\Not in use (old code based version)\StartScript.cs" />
+     <Compile Include="Assets\Scripts\Tiles\TileGUIEffects.cs" />
+     <Compile Include="Assets\Scripts\Tiles\TileInfoHolder.cs" />
+     <Compile Include="Assets\Scripts\Tiles\TileMethods.cs" />
+     <Compile Include="Assets\Scripts\UI\UITextManager.cs" />
+     <Compile Include="Assets\Scripts\UI\UIToggleManager.cs" />
+     <Compile Include="Assets\Scripts\Units\UnitInfoHolder.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
